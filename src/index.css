@@ -1,0 +1,44 @@
+body, button {
+	font-family: Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+#center {
+	margin: 20px 20% 0 20%;
+	text-align: center;
+}
+
+#center h2 {
+	margin: 0 0 50px 0;
+}
+
+#center textarea {
+	display: block;
+	padding: 10px;
+	width: calc(100% - 22px);
+	height: 200px;
+	border-radius: 3px;
+	resize: none;
+	overflow: auto;
+}
+
+#center button {
+	margin: 20px 10px 0 0;
+	padding: 6px 8px;
+	min-width: 60px;
+	border: none;
+	border-radius: 3px;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+#center #dl_png {
+	background-color: #4292f4;
+}
+
+#center #dl_jpeg {
+	background-color: #f47441;
+}
+
+#center #dl_png:hover, #dl_jpeg:hover {
+	opacity: 0.85;
+}
